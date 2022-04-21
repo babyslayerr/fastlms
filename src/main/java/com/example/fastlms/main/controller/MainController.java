@@ -1,4 +1,4 @@
-package com.example.fastlms;
+package com.example.fastlms.main.controller;
 
 import com.example.fastlms.components.MailComponents;
 import lombok.RequiredArgsConstructor;
@@ -16,10 +16,10 @@ public class MainController {
     @RequestMapping("/")
     public String index(){
 
-        String email = "whdghks619@gmail.com";
-        String subject = "나야나 정종화이";
-        String text = "<p>접니다. 세계최강</p><p>무릎 꿇으십시오</p>";
-        mailComponents.sendMail(email,subject,text);
+//        String email = "whdghks619@gmail.com";
+//        String subject = "나야나 정종화이";
+//        String text = "<p>접니다. 세계최강</p><p>무릎 꿇으십시오</p>";
+//        mailComponents.sendMail(email,subject,text);
         return "index";
 
     }

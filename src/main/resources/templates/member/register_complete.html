@@ -9,7 +9,7 @@
         <h1>회원 가입 완료</h1>
         <p>회원 가입이 완료되었습니다.</p>
     </div>
-    <div th:text="${result eq false}">
+    <div th:if="${result eq false}">
         <h1>회원 가입 결과</h1>
         <p>회원 가입에 실패하였습니다.</p>
     </div>
