@@ -16,11 +16,16 @@ public class MainController {
     @RequestMapping("/")
     public String index(){
 
-//        String email = "whdghks619@gmail.com";
-//        String subject = "나야나 정종화이";
-//        String text = "<p>접니다. 세계최강</p><p>무릎 꿇으십시오</p>";
-//        mailComponents.sendMail(email,subject,text);
+//        S
         return "index";
+
+    }
+
+    @RequestMapping("/error/denied")
+    public String errorDenied(){
+
+//
+        return "/error/denied";
 
     }
 
